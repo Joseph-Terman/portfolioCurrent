@@ -1,4 +1,19 @@
 // Styling for the timeline section
+
+#about {
+  background-image: url("../img/test8.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+
+  h2 {
+    color: darken($white, 8);
+    //color: #9ee493;
+    //color: darken(#ef6f6c, 25);
+    //color: #f9dec9;
+  }
+}
 .timeline {
   position: relative;
   padding: 0;
@@ -10,7 +25,7 @@
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    content: '';
+    content: "";
     background-color: $gray-200;
   }
   > li {
@@ -20,7 +35,7 @@
     &:after,
     &:before {
       display: table;
-      content: ' ';
+      content: " ";
     }
     &:after {
       clear: both;
@@ -86,20 +101,21 @@
   .timeline-heading {
     h4 {
       margin-top: 0;
-      color: inherit;
+      color: darken($primary, 8);
       &.subheading {
         text-transform: none;
       }
     }
   }
   .timeline-body {
-     > ul,
+    > ul,
     > p {
+      color: white;
       margin-bottom: 0;
     }
   }
 }
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .timeline {
     &:before {
       left: 50%;
@@ -132,7 +148,7 @@
     }
   }
 }
-@media(min-width:992px) {
+@media (min-width: 992px) {
   .timeline {
     > li {
       min-height: 150px;
@@ -155,7 +171,7 @@
     }
   }
 }
-@media(min-width:1200px) {
+@media (min-width: 1200px) {
   .timeline {
     > li {
       min-height: 170px;

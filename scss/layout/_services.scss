@@ -1,4 +1,29 @@
 // Styling for the services section
+#services {
+  background-image: url("../img/test17.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+
+  .fillOutPage {
+    margin-bottom: 130px;
+  }
+
+  h2 {
+    color: darken($primary, 5);
+    margin-top: 70px;
+  }
+
+  h3 {
+    margin-bottom: 120px;
+  }
+
+  h4 {
+    color: white;
+  }
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
