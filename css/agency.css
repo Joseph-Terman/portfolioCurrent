@@ -235,7 +235,7 @@ header.masthead .intro-text .intro-heading.marginMore {
 }
 
 #services {
-  background-image: url("../img/test17.jpg");
+  background-image: url("../img/test36.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -265,7 +265,7 @@ header.masthead .intro-text .intro-heading.marginMore {
 }
 
 #portfolio {
-  background-image: url("../img/test32.jpg");
+  background-image: url("../img/test35.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -639,15 +639,23 @@ header.masthead .intro-text .intro-heading.marginMore {
 }
 
 #team {
-  background-image: url("../img/test28.jpg");
+  background-image: url("../img/test17.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
 
+#team h2 {
+  color: #38c3be;
+}
+
 #team h3 {
   margin-bottom: 25px;
+}
+
+#team .description {
+  color: #d9d9d9;
 }
 
 .team-member {
@@ -665,14 +673,63 @@ header.masthead .intro-text .intro-heading.marginMore {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  color: #38c3be;
 }
 
 .team-member p {
   margin-top: 0;
+  color: white;
+}
+
+.infoSection {
+  background-color: #f0f0f0;
+}
+
+#team {
+  background-image: url("../img/test17.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#team h2 {
+  color: #38c3be;
+}
+
+#team h3 {
+  margin-bottom: 25px;
+}
+
+#team .description {
+  color: #d9d9d9;
+}
+
+.team-member {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+  color: #38c3be;
+}
+
+.team-member p {
+  margin-top: 0;
+  color: white;
 }
 
 section#contact {
-  background-image: url("../img/test28.jpg");
+  background-image: url("../img/test17.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
