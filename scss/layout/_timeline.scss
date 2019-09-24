@@ -7,6 +7,10 @@
   background-position: center center;
   background-size: cover;
 
+  .whiteText {
+    color: white;
+  }
+
   h2 {
     color: darken($white, 8);
     //color: #9ee493;
@@ -18,6 +22,7 @@
   position: relative;
   padding: 0;
   list-style: none;
+
   &:before {
     position: absolute;
     top: 0;
