@@ -1,6 +1,6 @@
 // Styling for the services section
 #services {
-  background-image: url("../img/test36.jpg");
+  background-image: url("../img/test35.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -16,15 +16,27 @@
   }
 
   h3 {
+    color: white;
+    margin-top: 25px;
     margin-bottom: 120px;
   }
 
-  h4 {
+  /*h4 
     color: white;
+  }*/
+
+  p {
+    margin-top: 25px;
+    color: white;
+    background-color: rgba(146, 146, 146, 0.3);
+    border-radius: 10px;
   }
 }
 
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  //color: darken(white, 7);
+  color: white;
+  font-size: 25px;
 }

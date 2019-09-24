@@ -4,7 +4,7 @@
 }
 
 #team {
-  background-image: url("../img/test17.jpg");
+  background-image: url("../img/test16.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -40,6 +40,8 @@
     margin-top: 0;
     color: white;
   }
+  i {
+  }
 }
 
 // Styling for the contact form section
@@ -48,11 +50,15 @@ section#contact {
   //background-image: url('../img/map-image.png');
   //background-repeat: no-repeat;
   //background-position: center;
-  background-image: url("../img/test17.jpg");
+  background-image: url("../img/test16.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+
+  .description {
+    color: darken(white, 15);
+  }
   .section-heading {
     color: $white;
   }
@@ -92,5 +98,77 @@ section#contact {
     font-weight: 700;
     color: $gray-400;
     @include heading-font;
+  }
+
+  //contact Form with Google
+
+  #fs-frm input {
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  #fs-frm label {
+    color: $primary;
+    font-size: 20px;
+  }
+
+  #message {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  /* border, padding, margin, width */
+  #fs-frm input,
+  #fs-frm select,
+  #fs-frm button,
+  #fs-frm textarea {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.75em 1em;
+    margin-bottom: 1.5em;
+  }
+  #fs-frm input:focus,
+  #fs-frm select:focus,
+  #fs-frm textarea:focus {
+    background-color: white;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: $primary;
+    outline-offset: -1px;
+    -moz-outline-radius: 10px;
+  }
+  #fs-frm [type="text"],
+  #fs-frm [type="email"] {
+    width: 100%;
+  }
+
+  #fs-frm button,
+  #fs-frm [type="button"],
+  #fs-frm [type="submit"],
+  #fs-frm [type="reset"] {
+    width: auto;
+    cursor: pointer;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: $primary;
+    color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+  }
+  #fs-frm button:focus,
+  #fs-frm [type="button"]:focus,
+  #fs-frm [type="submit"]:focus,
+  #fs-frm [type="reset"]:focus {
+    outline: none;
+  }
+  #fs-frm [type="submit"],
+  #fs-frm [type="reset"] {
+    margin-bottom: 0;
+  }
+  #fs-frm button,
+  #fs-frm select {
+    text-transform: none;
   }
 }
